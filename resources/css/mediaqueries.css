@@ -1,0 +1,21 @@
+@media screen and (max-width:768px) {
+    .img-article{
+        height: 100px;
+        width: 150px;
+    }
+    .card-grglog{
+      justify-content: center;
+       flex-direction: column;
+    }
+}
+@media screen and (min-width:768px) {
+    .show-modal .modal-dialog{
+        max-width: 75vw;
+        max-height: 75vh;
+    }
+    .show-modal .modal-body{
+        margin-left:auto;
+        margin-right: auto;
+    }
+}
+
